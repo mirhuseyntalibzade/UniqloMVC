@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D23671-5311-4B4A-9DC0-89A500E3C337}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\ii novbe\\source\\repos\\uniqlo\\uniqlomvc\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1D23671-5311-4B4A-9DC0-89A500E3C337}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E9200DC-71E2-45A7-A99C-BE7683937913}|UniqloBL\\UniqloBL.csproj|c:\\users\\ii novbe\\source\\repos\\uniqlo\\uniqlobl\\services\\concretes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E9200DC-71E2-45A7-A99C-BE7683937913}|UniqloBL\\UniqloBL.csproj|solutionrelative:uniqlobl\\services\\concretes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D23671-5311-4B4A-9DC0-89A500E3C337}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\ii novbe\\source\\repos\\uniqlo\\uniqlomvc\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D23671-5311-4B4A-9DC0-89A500E3C337}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D23671-5311-4B4A-9DC0-89A500E3C337}|UniqloMVC\\UniqloMVC.csproj|c:\\users\\ii novbe\\source\\repos\\uniqlo\\uniqlomvc\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D1D23671-5311-4B4A-9DC0-89A500E3C337}|UniqloMVC\\UniqloMVC.csproj|solutionrelative:uniqlomvc\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloMVC\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloMVC\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T15:10:33.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloMVC\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloMVC\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T15:05:57.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloBL\\Services\\Concretes\\CategoryService.cs",
+              "RelativeDocumentMoniker": "UniqloBL\\Services\\Concretes\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloBL\\Services\\Concretes\\CategoryService.cs",
+              "RelativeToolTip": "UniqloBL\\Services\\Concretes\\CategoryService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:03:14.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloMVC\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "UniqloMVC\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Uniqlo\\UniqloMVC\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "UniqloMVC\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:01:43.475Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

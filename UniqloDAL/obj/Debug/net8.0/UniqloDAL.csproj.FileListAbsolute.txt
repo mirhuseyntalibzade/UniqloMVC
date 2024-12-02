@@ -1,0 +1,14 @@
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\bin\Debug\net8.0\UniqloDAL.deps.json
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\bin\Debug\net8.0\UniqloDAL.runtimeconfig.json
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\bin\Debug\net8.0\UniqloDAL.dll
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\bin\Debug\net8.0\UniqloDAL.pdb
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.csproj.AssemblyReference.cache
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.AssemblyInfoInputs.cache
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.AssemblyInfo.cs
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.csproj.CoreCompileInputs.cache
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.dll
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\refint\UniqloDAL.dll
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.pdb
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\UniqloDAL.genruntimeconfig.cache
+C:\Users\II Novbe\source\repos\Uniqlo\UniqloDAL\obj\Debug\net8.0\ref\UniqloDAL.dll
