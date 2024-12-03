@@ -13,9 +13,9 @@ namespace UniqloBL.Services.Concretes
 
     public class CategoryService : ICategoryService
     {
-        readonly UniqloDBContext _context;
+        readonly UniqloDbContext _context;
 
-        public CategoryService(UniqloDBContext context)
+        public CategoryService(UniqloDbContext context)
         {
             _context = context;
         }

@@ -5,11 +5,13 @@ using UniqloDAL.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddDbContext<UniqloDBContext>(options =>
+builder.Services.AddDbContext<UniqloDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"));
+    options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
+builder.Services.AddScoped<ISliderItemService, SliderItemsService>();
+
 
 var app = builder.Build();
 
@@ -23,6 +25,6 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
-);
+    );
 
 app.Run();

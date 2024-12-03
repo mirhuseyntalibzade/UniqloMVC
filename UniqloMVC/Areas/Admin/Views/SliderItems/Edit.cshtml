@@ -1,0 +1,16 @@
+﻿@using UniqloDAL.Models
+@model SliderItem;
+<div class="container-fluid">
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Slider Item Title</label>
+            <input type="text" class="form-control" asp-for="Title">
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImagePath" class="form-label">Slider Item Path</label>
+            <input type="text" class="form-control" asp-for="ImagePath">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
