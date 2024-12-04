@@ -1,0 +1,32 @@
+﻿@using UniqloDAL.Models;
+@model Product;
+
+<div class="container-fluid">
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="ImagePath" class="form-label">ImagePath</label>
+            <input asp-for="ImagePath" type="text" class="form-control">
+            <span asp-validation-for="ImagePath" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Title</label>
+            <input asp-for="Title" type="text" class="form-control">
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <input asp-for="Description" type="text" class="form-control">
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Price</label>
+            <input asp-for="Price" type="text" class="form-control">
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-select" aria-label="Default select example">
+            </select>
+        </div>
+        <button type="submit" class="btn btn-warning text-white">Create</button>
+    </form>
+</div>

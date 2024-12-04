@@ -35,7 +35,7 @@ namespace Pronia_MVC.Areas.Admin.Controllers
             _sliderItemService.CreateSliderItem(sliderItem);
             return RedirectToAction("Index");
         }
-        public async Task<IActionResult> Edit(int Id)
+        public async Task<IActionResult> Update(int Id)
         {
             SliderItem sliderItem =  await _sliderItemService.GetSliderItemAsync(Id);
             if (sliderItem == null)
@@ -46,7 +46,7 @@ namespace Pronia_MVC.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(SliderItem updatedSliderItem)
+        public async Task<IActionResult> Update(SliderItem updatedSliderItem)
         {
             SliderItem currentItem = await _sliderItemService.GetSliderItemAsync(updatedSliderItem.Id);
             if (!ModelState.IsValid)
@@ -72,7 +72,5 @@ namespace Pronia_MVC.Areas.Admin.Controllers
             _sliderItemService.DeleteSliderItem(deletedItem);
             return RedirectToAction("Index");
         }
-
-
     }
 }

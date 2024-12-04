@@ -9,6 +9,7 @@ namespace UniqloBL.Services.Abstractions
 {
     public interface ICategoryService
     {
+        public Task CreateCategoryAsync(Category category);
         public Task<IEnumerable<Category>> GetAllCategoriesAsync();
         public Task<Category> GetCategoryByIdAsync(int id);
         public Task EditCategoryAsync(Category category);

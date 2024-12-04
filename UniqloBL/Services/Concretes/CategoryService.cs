@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 using UniqloBL.Services.Abstractions;
 using UniqloDAL.Contexts;
 using UniqloDAL.Models;
@@ -18,6 +14,12 @@ namespace UniqloBL.Services.Concretes
         public CategoryService(UniqloDbContext context)
         {
             _context = context;
+        }
+
+        public async Task CreateCategoryAsync(Category category)
+        {
+            await _context.Categories.AddAsync(category);
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleteCategoryAsync(Category category)
@@ -43,6 +45,5 @@ namespace UniqloBL.Services.Concretes
             Category? category = await _context.Categories.FirstOrDefaultAsync();
             return (category);
         }
-
     }
 }

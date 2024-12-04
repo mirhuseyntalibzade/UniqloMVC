@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UniqloBL.Services.Abstractions;
 using UniqloDAL.Contexts;
 using UniqloDAL.Models;
@@ -21,7 +16,7 @@ namespace UniqloBL.Services.Concretes
         public async Task CreateSliderItem(SliderItem sliderItem)
         {
             await _context.SliderItems.AddAsync(sliderItem);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
         public void UpdateSliderItem(SliderItem updatedSliderItem)
         {
